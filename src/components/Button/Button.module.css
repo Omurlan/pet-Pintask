@@ -1,0 +1,34 @@
+.button {
+  font-size: 1.4rem;
+  color: var(--white);
+  padding: 1rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.blue:hover {
+  background: var(--blue-dark);
+}
+
+.red {
+  background: var(--red);
+}
+
+.pink {
+  background: var(--pink);
+  color: var(--dark-text);
+}
+
+.green {
+  background: var(--green);
+}
+
+.gray {
+  background: var(--gray);
+  color: var(--dark-text);
+}

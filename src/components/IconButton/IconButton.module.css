@@ -1,0 +1,54 @@
+.iconButton {
+  font-size: 1.4rem;
+  color: var(--white);
+  padding: 0.798rem 1.5rem;
+  background: var(--white);
+  color: var(--dark-text);
+  border: none;
+  cursor: pointer;
+  transition: all 0.1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: rgb(0 0 0 / 20%) 1px 1px 5px 0; */
+  box-shadow: 0 1px 1px rgb(9 30 66 / 25%), 0 0 0 1px rgb(9 30 66 / 8%);
+}
+
+.iconButton:hover {
+  background-color: var(--gray-light);
+}
+
+.blue {
+  background: var(--blue);
+}
+
+.blue:hover {
+  background: var(--blue-dark);
+}
+
+.red {
+  background: var(--red);
+}
+
+.pink {
+  background: var(--pink);
+  color: var(--dark-text);
+}
+
+.green {
+  background: var(--green);
+}
+
+.gray {
+  background: var(--gray);
+  color: var(--dark-text);
+}
+
+.icon {
+  font-size: 2.4rem;
+  margin-left: 0.5rem;
+}
+
+.bold {
+  font-weight: 500;
+}
